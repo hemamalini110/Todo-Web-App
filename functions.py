@@ -3,7 +3,7 @@
 #constant variables
 FILEPATH ="todos.txt"
 def read_todos(filepath=FILEPATH):
-    """ read the file and return the content in the file """
+    """ read the file and   return the content in the file """
     with open(filepath, 'r') as file:
         todos = file.readlines()
         file.close()
